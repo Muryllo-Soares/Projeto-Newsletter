@@ -1,0 +1,64 @@
+.container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0, 0.7);
+    z-index: 1000;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 50vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.modal>img{
+    height: 70px;
+    padding-right: 300px;
+}
+
+.modal>h1{
+    color: hsl(240, 27%, 20%);
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 15px;
+}
+.components > p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.modal>button {
+    height: 60px;
+    border: 1px solid hsl(231, 7%, 60%);
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: hsl(240, 27%, 20%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.modal>button:hover{
+    background-image: linear-gradient(to right, #ff527b, #ff6642);
+    box-shadow: -1px 15px 20px 4px #ff654250;}
+
