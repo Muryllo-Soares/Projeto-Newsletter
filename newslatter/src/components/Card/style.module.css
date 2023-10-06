@@ -1,0 +1,83 @@
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 25px;
+    border-radius: 30px;
+    
+}
+.components{
+    margin-top: 80px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.components>h1{
+    font-family: 'Roboto', sans-serif;
+    color: hsl(240, 27%, 20%);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 15px;
+   
+}
+
+.components>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form>label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.mail{
+    height: 60px;
+    border: 1px solid hsl(231, 7%, 60%);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit{
+    height: 60px;
+    border: 1px solid hsl(231, 7%, 60%);
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: hsl(240, 27%, 20%);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.submit:hover{
+    background-image: linear-gradient(to right,#ff527b, #ff6642);
+    box-shadow: -1px 15px 20px 4px #ff654250;
+  
+    
+}
+
+
+
+
