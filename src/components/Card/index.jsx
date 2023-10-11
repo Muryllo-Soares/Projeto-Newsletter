@@ -2,7 +2,7 @@ import illustrationDesktop from "/src/assets/images/illustration-sign-up-desktop
 import iconList from"/src/assets/images/icon-list.svg"
 import styles from "./style.module.css"
 import { useState } from "react";
-import Modal from "../Modal/index";
+import Modal from "/src/components/Modal/index";
 
 export default function Card (){
     const [openModal, setOpenModal] = useState(false);
