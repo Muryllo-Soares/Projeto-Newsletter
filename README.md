@@ -10,7 +10,7 @@ Newslatter é uma aplicação front-end web responsiva que se adapta também a t
 
 A aplicação consiste em que o usuário insira um e-mail valido e se cadastre no newslatter para receber conteúdos relacionado aquele site.
 
-## Projeto em desenvolvimento (não concluído) 
+**Projeto em desenvolvimento (não concluído)**
 
 
 ## Layout web
