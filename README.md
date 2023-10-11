@@ -6,7 +6,7 @@
 
 https://muryllo-soares.github.io/projeto-newsletter/
 
-Newslatter é uma aplicação front-end web construido para praticar o meu desenvolvimento na área de desenvolvedor.
+Newslatter é uma aplicação front-end web responsiva que se adapta também a telas de dispositivos móveis, conta com a validação no campo de e-mail, desenvolvido com intuito de praticar os meus conhecimentos com Logíca de programação, React e Vite.
 
 A aplicação consiste em que o usuário insira um e-mail valido e se cadastre no newslatter para receber conteúdos relacionado aquele site.
 
