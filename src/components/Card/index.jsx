@@ -6,15 +6,11 @@ import Modal from "/src/components/Modal/index";
 
 export default function Card (){
     const [openModal, setOpenModal] = useState(false);
-    const [valor, setValor] = useState("");
+    const [value, setValue] = useState("");
     const handleChange = (event) =>{
-        setValor(event.target.value)
+        setValue(event.target.value)
     }
-    
-    const noReload = (e) => {
-        e.preventDefault()
-    };
-
+   
     return(
         <>
             <div className={styles.container}>
@@ -34,7 +30,9 @@ export default function Card (){
                 
                     <form 
                     className={styles.form} 
-                    onSubmit={(e)=>noReload(e)}
+                    onSubmit={(e) => {
+                        e.preventDefault()
+                    }}
                     >
                         <label 
                             htmlFor="emailAddress">Email address
@@ -67,7 +65,7 @@ export default function Card (){
                     src={illustrationDesktop} alt="illustration" />
                 </div>
             <Modal 
-            value={valor} 
+            value={value} 
             isOpen={openModal} 
             setModalOpen={()=> setOpenModal(!openModal)}/>
         </>
